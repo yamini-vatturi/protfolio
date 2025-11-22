@@ -1,0 +1,59 @@
+body{
+    background-image: url(grayish-watercolor-texture-backdrop-design_534308-783.avif);
+    background-size:cover;
+}
+.nav{
+    background-color:darkgray;
+    text-align:right;
+    padding: 10px;
+    justify-content: space-between;
+}
+.container {
+    display: flex;
+    align-items: center;
+    }
+.container img {
+    max-width: 200%;
+    height: auto;
+    float: end;
+    }
+.container .text {
+     text-align:end;
+    }
+.container .t {
+     text-align:end;
+       }
+.textt{
+        display: flex;
+        align-items: center;
+        }
+.textt img {
+        max-width: 100%;
+        height: auto;
+        }
+.textt.pic {
+        margin-right: 200px;
+        }
+.logo{
+    text-align: end;
+}
+.container1 {
+    display: flex;              
+    justify-content: space-between;
+    align-items: center;       
+    max-width: 800px;
+    margin: auto;
+   
+}
+.text1 {
+    flex: 1;                     
+    padding-right: 20px;        
+}
+.image1 {
+    flex-shrink: 0;             
+}
+.image1 img {
+    max-width: 200px;           
+    height: auto;
+    border-radius: 8px;         
+}
